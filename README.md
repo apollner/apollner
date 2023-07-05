@@ -5,4 +5,5 @@
 
 
 
-Current temperature in Tel Aviv: 26C at 19:02
+
+Current temperature in Tel Aviv: 26C at 22:05

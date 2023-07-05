@@ -1,6 +1,6 @@
 import requests
+from datetime import datetime
 import os
-
 
 # Fetch temperature data
 api_key = os.getenv('WEATHER_API_KEY')
@@ -10,6 +10,10 @@ temperature = data['main']['temp'] - 273.15
 
 # Round the temperature to the nearest integer
 temperature = round(temperature)
+
+# Get the current time
+now = datetime.now()
+current_time = now.strftime("%H:%M")
 
 # Read existing README content
 with open('README.md', 'r') as f:
@@ -23,8 +27,8 @@ if index != -1:
     end_index = content.find('\n', index)
     content = content[:index] + content[end_index+1:]
 
-# Append the temperature data to the README content
-content += f'\nCurrent temperature in Tel Aviv: {temperature}°C\n'
+# Append the temperature data and the current time to the README content
+content += f'\nCurrent temperature in Tel Aviv: {temperature}C at {current_time}\n'
 
 # Write the updated content to the README
 with open('README.md', 'w') as f:

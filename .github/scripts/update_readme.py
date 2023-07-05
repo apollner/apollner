@@ -1,6 +1,7 @@
 import requests
 import os
 
+
 # Fetch temperature data
 api_key = os.getenv('WEATHER_API_KEY')
 response = requests.get(f'http://api.openweathermap.org/data/2.5/weather?q=Tel%20Aviv&appid={api_key}')

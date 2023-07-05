@@ -12,7 +12,7 @@ jobs:
     steps:
       - uses: actions/checkout@v2
         with:
-          repo-token: ${{ secrets.token }}
+          repo-token: ${{ secrets.tokensdf }}
       - name: Set up Python
         uses: actions/setup-python@v2
         with:

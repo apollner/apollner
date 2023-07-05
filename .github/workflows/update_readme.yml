@@ -2,7 +2,7 @@ name: Update README
 
 on:
   schedule:
-    - cron: '*/5 * * * *'  # Run every 5 minutes
+    - cron: '*/1 * * * *'  # Run every 5 minutes
 
 jobs:
   update_readme:

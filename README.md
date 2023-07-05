@@ -1,4 +1,4 @@
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&width=435&lines=Hello+%F0%9F%91%8B+welcome+to+my+Github)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&width=435&lines=Hello+%F0%9F%91%8B+welcome+to+my+GitHub)](https://git.io/typing-svg)
 
 <!--
 **apollner/apollner** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.

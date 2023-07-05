@@ -12,7 +12,7 @@ jobs:
     steps:
       - uses: actions/checkout@v2
         with:
-          token: ${{ secrets.PAT }} 
+          token: ${{ secrets.weekly-access-token }} 
       - name: Set up Python
         uses: actions/setup-python@v2
         with:

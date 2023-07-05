@@ -21,7 +21,7 @@ if index != -1:
     content = content[:index] + content[end_index+1:]
 
 # Append the temperature data to the README content
-content += f'\nCurrent temperature in Tel Aviv: {temperature}C\n'
+content += f'\nCurrent temperature in Tel Aviv: {temperature}°C\n'
 
 # Write the updated content to the README
 with open('README.md', 'w') as f:

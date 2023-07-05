@@ -6,5 +6,5 @@ data = response.json()
 temperature = data['main']['temp']
 
 # Update README
-with open('README.md', 'w') as f:
+with open('../../README.md', 'w') as f:
     f.write(f'Current temperature in London: {temperature}K')

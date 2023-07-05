@@ -2,7 +2,7 @@ name: Update README
 
 on:
   schedule:
-    - cron: '*/1 * * * *'  # Run every 5 minutes
+    - cron: '*/1 * * * *'  # Run every 1 minutes
 
 jobs:
   update_readme:
@@ -18,4 +18,11 @@ jobs:
         run: pip install requests
       - name: Fetch data and update README
         run: python .github/scripts/update_readme.py
+      - name: Commit and push if it changed
+        run: |
+          git diff
+          git config --global user.email "action@github.com"
+          git config --global user.name "GitHub Action"
+          git commit -am "Updated README" || exit 0
+          git push
 

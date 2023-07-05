@@ -17,7 +17,8 @@ temperature = round(temperature)
 # Get the current time in Tel Aviv
 tel_aviv = pytz.timezone('Asia/Jerusalem')
 now = datetime.now(tel_aviv)
-current_date_time = now.strftime("%Y-%m-%d %H:%M")
+current_date = now.strftime("%Y-%m-%d")
+current_time = now.strftime("%H:%M")
 
 # Read existing README content
 with open('README.md', 'r') as f:
@@ -32,7 +33,7 @@ if index != -1:
     content = content[:index] + content[end_index+1:]
 
 # Append the temperature data and the current time to the README content
-content += f'\nCurrent temperature in Tel Aviv: {temperature}C at {current_date_time}\n'
+content += f'\nCurrent temperature in Tel Aviv: {temperature}°C, recorded on {current_date} at {current_time}\n'
 
 # Write the updated content to the README
 with open('README.md', 'w') as f:

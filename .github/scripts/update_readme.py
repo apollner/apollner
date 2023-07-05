@@ -1,6 +1,9 @@
 import requests
 from datetime import datetime
 import os
+import pytz
+
+
 
 # Fetch temperature data
 api_key = os.getenv('WEATHER_API_KEY')
@@ -11,8 +14,9 @@ temperature = data['main']['temp'] - 273.15
 # Round the temperature to the nearest integer
 temperature = round(temperature)
 
-# Get the current time
-now = datetime.now()
+# Get the current time in Tel Aviv
+tel_aviv = pytz.timezone('Asia/Jerusalem')
+now = datetime.now(tel_aviv)
 current_time = now.strftime("%H:%M")
 
 # Read existing README content

@@ -1,4 +1,5 @@
 import requests
+import os
 
 # Fetch temperature data
 api_key = os.getenv('WEATHER_API_KEY')

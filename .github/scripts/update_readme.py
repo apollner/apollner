@@ -21,7 +21,7 @@ current_date = now.strftime("%Y-%m-%d")
 current_time = now.strftime("%H:%M")
 
 # Fetch a random image from Lorem Picsum
-response = requests.get('https://picsum.photos/5000')
+response = requests.get('https://picsum.photos/1080')
 image_data = response.content
 image = Image.open(BytesIO(image_data))
 

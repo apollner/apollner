@@ -2,8 +2,10 @@
 [![GitHub stats](https://github-readme-stats.vercel.app/api?username=apollner&rank_icon=github&hide=stars,prs)](https://github.com/anuraghazra/github-readme-stats)
 
 
+
+
 ![Random Image](random_image.jpg)
 
-Current temperature in Tel Aviv: 29°C, recorded on 2023-07-06 at 18:13
+Current temperature in Tel Aviv: 29°C, recorded on 2023-07-06 at 18:16
 
 ![Random Image](random_image.jpg)

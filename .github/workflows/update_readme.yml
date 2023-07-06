@@ -19,6 +19,7 @@ jobs:
         run: |
           pip install requests
           pip install pytz
+          pip install pillow
 
       - name: Fetch data and update README
         run: python .github/scripts/update_readme.py

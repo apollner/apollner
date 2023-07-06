@@ -1,6 +1,9 @@
 [![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&width=435&lines=Hello+%F0%9F%91%8B+welcome+to+my+GitHub+%F0%9F%94%A5)](https://git.io/typing-svg)
 [![GitHub stats](https://github-readme-stats.vercel.app/api?username=apollner&rank_icon=github&hide=stars,prs)](https://github.com/anuraghazra/github-readme-stats)
 
-Current temperature in Tel Aviv: 29°C, recorded on 2023-07-06 at 18:11
+
+![Random Image](random_image.jpg)
+
+Current temperature in Tel Aviv: 29°C, recorded on 2023-07-06 at 18:13
 
 ![Random Image](random_image.jpg)

@@ -32,15 +32,19 @@ image.save('random_image.jpg')
 with open('README.md', 'r') as f:
     content = f.read()
 
-# Find the index of the temperature line if it exists
+# Find the index of the temperature line if it exists and remove it
 index = content.find('Current temperature in Tel Aviv')
-
-# If the temperature line exists, remove it
 if index != -1:
     end_index = content.find('\n', index)
     content = content[:index] + content[end_index+1:]
 
-# Append the temperature data and the current time to the README content
+# Find the index of the image line if it exists and remove it
+index = content.find('![Random Image]')
+if index != -1:
+    end_index = content.find('\n', index)
+    content = content[:index] + content[end_index+1:]
+
+# Append the temperature data, the current time, and the image to the README content
 content += f'\nCurrent temperature in Tel Aviv: {temperature}°C, recorded on {current_date} at {current_time}\n'
 content += f'\n![Random Image](random_image.jpg)\n'  # Add image to README
 

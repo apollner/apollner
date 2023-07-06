@@ -26,7 +26,7 @@ image_data = response.content
 image = Image.open(BytesIO(image_data))
 
 # Save the image
-image.save('../../random_image.jpg')
+image.save('random_image.jpg')
 
 # Read existing README content
 with open('README.md', 'r') as f:

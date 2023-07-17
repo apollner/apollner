@@ -1,5 +1,6 @@
 [![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&width=435&lines=Hello+%F0%9F%91%8B+welcome+to+my+GitHub+%F0%9F%94%A5)](https://git.io/typing-svg)
 [![GitHub stats](https://github-readme-stats.vercel.app/api?username=apollner&rank_icon=github&hide=stars,prs)](https://github.com/anuraghazra/github-readme-stats)
+
 I have a background in engineering, and life brought me to the world of data science. I also have an interest/passion in automation, that's why I created a couple of repos that get automatically updated by themselves every so often.
 ## Random Image
 This image is fetched randomly and gets updated every few minutes.

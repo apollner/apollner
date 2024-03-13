@@ -1,7 +1,7 @@
 [![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&width=435&lines=Hello+%F0%9F%91%8B+welcome+to+my+GitHub+%F0%9F%94%A5)](https://git.io/typing-svg)
 [![GitHub stats](https://github-readme-stats.vercel.app/api?username=apollner&rank_icon=github&hide=stars,prs)](https://github.com/anuraghazra/github-readme-stats)
 
-As an engineer turned data scientist, I leverage my analytical skills to extract meaningful insights from data. My passion for automation is evident in my work, including repositories that self-update regularly like this README.
+As an engineer, I leverage my analytical skills to extract meaningful insights from data. My passion for automation is evident in my work, including repositories that self-update regularly like this README.
 ## Random Image
 This image is fetched randomly and gets updated every few minutes.
 

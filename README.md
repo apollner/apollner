@@ -86360,4 +86360,5 @@ This image is fetched randomly and gets updated every few minutes.
 
 
 
-Current temperature in Tel Aviv: 20°C, recorded on 2026-01-07 at 17:17
+
+Current temperature in Tel Aviv: 19°C, recorded on 2026-01-07 at 17:43
